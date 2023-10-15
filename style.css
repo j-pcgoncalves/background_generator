@@ -18,3 +18,12 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 }
+
+#rand_btn {
+    margin-top: 15px;
+    border: none;
+    background: #4f3000;
+    color: #c2c2c2;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -5,6 +5,8 @@ const body = document.getElementById("gradient_bg");
 
 function setGradient() {
     body.style.background = `linear-gradient(to right, ${color_1.value}, ${color_2.value})`;
+
+    css.textContent = body.style.background + ";"
 }
 
 color_1.addEventListener("input", () => {
